@@ -2,7 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 // Stack component manages layout of immediate children along vertical/horizontal axis. Helps with lists of items
 import { Stack } from '@mui/material';
-import logo3 from '../assets/assets/images/logo3.png';
+import logo4 from '../assets/assets/images/logo4.png';
 
 const Navbar = () => {
   return (
@@ -10,7 +10,7 @@ const Navbar = () => {
     justifyContent="space-around" sx={{ gap: {
       sm: '122px', xs: '40px'}, mt: { sm: '32px', xs: '20px' }, justifyContent: 'none'}} px="20px">
       <Link to="/">
-        <img src={logo3} alt="logo3" style={{
+        <img src={logo4} alt="logo3" style={{
           width: '48px', height: '48px', margin: '0 20px' }}/>
       </Link>
       <Stack
